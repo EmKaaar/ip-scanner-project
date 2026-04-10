@@ -6,7 +6,6 @@ namespace IpScanner
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
             Console.Write("Start-IP: ");
             string start = Console.ReadLine();
 
@@ -19,8 +18,6 @@ namespace IpScanner
             bool reachable = Ping(start);
             Console.WriteLine(reachable ? "Start-IP erreichbar" : "Start-IP nicht erreichbar");
 
-=======
->>>>>>> 7ff3e4e (Added Scanner function)
         }
 
         public static bool Ping(string ip)
